@@ -2,6 +2,7 @@ import {Work_Sans} from "next/font/google";
 import "./globals.css";
 
 export const metadata = {
+  metadataBase: new URL('https://luwydev.com'),
   title: "LuwyDyro Web Developer",
   description: "Soy desarrollador web, tengo conocimientos gráficos UX/UI, FrontEnd Dev, Web Design, E-commerce",
   keywords: "creative agency, personal, corporate, freelance, software",

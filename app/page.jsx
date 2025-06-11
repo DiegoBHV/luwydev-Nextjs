@@ -243,7 +243,7 @@ export function App() {
                             <b className="text-lg font-medium text-neutral-100 block mb-3">
                               SCSS/Tailwind
                             </b>
-                            <div className="bg-interface-300 bg-opacity-20 w-full h-2 rounded flex items-center overflow-hidden growAnimation">
+                            <div className="w-full h-2 rounded flex items-center overflow-hidden growAnimation">
                               <div
                                 className="bg-blue-500 h-2 rounded origin-left"
                                 style={{ width: "100%" }}
@@ -254,7 +254,7 @@ export function App() {
                             <b className="text-lg font-medium text-neutral-100 block mb-3">
                               Angular/NextJs
                             </b>
-                            <div className="bg-interface-300 bg-opacity-20 w-full h-2 rounded flex items-center overflow-hidden growAnimation">
+                            <div className="w-full h-2 rounded flex items-center overflow-hidden growAnimation">
                               <div
                                 className="bg-blue-500 h-2 rounded origin-left"
                                 style={{ width: "90%" }}
@@ -265,7 +265,7 @@ export function App() {
                             <b className="text-lg font-medium text-neutral-100 block mb-3">
                               SAP Commerce Cloud/Composable Store Front (Spartacus)
                             </b>
-                            <div className="bg-interface-300 bg-opacity-20 w-full h-2 flex items-center rounded overflow-hidden growAnimation">
+                            <div className="w-full h-2 flex items-center rounded overflow-hidden growAnimation">
                               <div
                                 className="bg-blue-500 h-2 rounded origin-left"
                                 style={{ width: "80%" }}
@@ -277,7 +277,7 @@ export function App() {
                             <b className="text-lg font-medium text-neutral-100 block mb-3">
                               PSD/Figma/Illustrator
                             </b>
-                            <div className="bg-interface-300 bg-opacity-20 w-full h-2 flex items-center rounded overflow-hidden growAnimation">
+                            <div className="w-full h-2 flex items-center rounded overflow-hidden growAnimation">
                               <div
                                 className="bg-blue-500 h-2 rounded origin-left"
                                 style={{ width: "90%" }}
@@ -288,7 +288,7 @@ export function App() {
                             <b className="text-lg font-medium text-neutral-100 block mb-3">
                               SQL/MySQL/MongoDb/Firestore
                             </b>
-                            <div className="bg-interface-300 bg-opacity-20 w-full h-2 flex items-center rounded overflow-hidden growAnimation">
+                            <div className="w-full h-2 flex items-center rounded overflow-hidden growAnimation">
                               <div
                                 className="bg-blue-500 h-2 rounded origin-left"
                                 style={{ width: "85%" }}
@@ -299,7 +299,7 @@ export function App() {
                             <b className="text-lg font-medium text-neutral-100 block mb-3">
                               JIRA/Board Azure
                             </b>
-                            <div className="bg-interface-300 bg-opacity-20 w-full h-2 flex items-center rounded overflow-hidden growAnimation">
+                            <div className="w-full h-2 flex items-center rounded overflow-hidden growAnimation">
                               <div
                                 className="bg-blue-500 h-2 rounded origin-left"
                                 style={{ width: "50%" }}
@@ -310,7 +310,7 @@ export function App() {
                             <b className="text-lg font-medium text-neutral-100 block mb-3">
                               Scrum/Kanban
                             </b>
-                            <div className="bg-interface-300 bg-opacity-20 w-full h-2 flex items-center rounded overflow-hidden growAnimation">
+                            <div className="w-full h-2 flex items-center rounded overflow-hidden growAnimation">
                               <div
                                 className="bg-blue-500 h-2 rounded origin-left"
                                 style={{ width: "90%" }}
@@ -321,7 +321,7 @@ export function App() {
                             <b className="text-lg font-medium text-neutral-100 block mb-3">
                               CMS (WooCommerce – Adobe Commerce)
                             </b>
-                            <div className="bg-interface-300 bg-opacity-20 w-full h-2 flex items-center rounded overflow-hidden growAnimation">
+                            <div className="w-full h-2 flex items-center rounded overflow-hidden growAnimation">
                               <div
                                 className="bg-blue-500 h-2 rounded origin-left"
                                 style={{ width: "90%" }}
@@ -332,7 +332,7 @@ export function App() {
                             <b className="text-lg font-medium text-neutral-100 block mb-3">
                               Azure Dev
                             </b>
-                            <div className="bg-interface-300 bg-opacity-20 w-full h-2 flex items-center rounded overflow-hidden growAnimation">
+                            <div className="w-full h-2 flex items-center rounded overflow-hidden growAnimation">
                               <div
                                 className="bg-blue-500 h-2 rounded origin-left"
                                 style={{ width: "85%" }}
