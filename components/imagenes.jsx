@@ -55,6 +55,9 @@ import project3 from "@/public/images/projects/project3.jpg";
 import project4 from "@/public/images/projects/project4.jpg";
 import project5 from "@/public/images/projects/project5.jpg";
 import project6 from "@/public/images/projects/project6.jpg";
+import jjmining from "@/public/images/projects/jjmining.jpg";
+import training from "@/public/images/projects/training.jpg";
+import servtecnicos from "@/public/images/projects/serviciostecnicos.png";
 
 export const about = {
     "next_angular" : next_angular,
@@ -118,6 +121,9 @@ export const projects = {
     "project4" : project4,
     "project5" : project5,
     "project6" : project6,
+    "jjmining" : jjmining,
+    "training" : training,
+    "servtecnicos" : servtecnicos,
 }
 export default {
  ...about,

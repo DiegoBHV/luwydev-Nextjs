@@ -57,11 +57,11 @@ export const Slider = () => {
         </SwiperSlide>
         <SwiperSlide className="xl:px-[1.3rem] lg:px-[1rem]">
           <div className="client-logo-light">
-            <a href="https://jjm.com.pe/" rel="noopener noreferrer" target="_blank">
+            <a href="https://luwydev.com/jjm/web2024/" rel="noopener noreferrer" target="_blank">
               <Image
                 src={logos.logo_jjmining}
                 className="mx-auto"
-                alt="Logo Samishop"
+                alt="Logo JJ Mining"
               />
             </a>
           </div>
@@ -134,11 +134,11 @@ export const Slider = () => {
         </SwiperSlide>
         <SwiperSlide className="xl:px-[1.3rem] lg:px-[1rem]">
           <div className="client-logo-light">
-            <a href="https://jjm.com.pe/" rel="noopener noreferrer" target="_blank">
+            <a href="https://luwydev.com/jjm/web2024/" rel="noopener noreferrer" target="_blank">
               <Image
                 src={logos.logo_jjmining}
                 className="mx-auto"
-                alt="Logo Samishop"
+                alt="Logo JJ Mining"
               />
             </a>
           </div>
@@ -200,11 +200,11 @@ export const Slider = () => {
         </SwiperSlide>
         <SwiperSlide className="xl:px-[1.3rem] lg:px-[1rem]">
           <div className="client-logo-light">
-            <a href="https://jjm.com.pe/" rel="noopener noreferrer" target="_blank">
+            <a href="https://luwydev.com/jjm/web2024/" rel="noopener noreferrer" target="_blank">
               <Image
                 src={logos.logo_jjmining}
                 className="mx-auto"
-                alt="Logo Samishop"
+                alt="Logo JJ Mining"
               />
             </a>
           </div>
