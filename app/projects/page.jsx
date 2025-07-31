@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { PreLoader } from "@/components/Preloader";
 import "animate.css";
 import ProjectsC from "@/components/projects";
@@ -10,42 +11,10 @@ import {
 import { FooterC } from "@/components/Footer";
 
 export const metadata = {
-  metadataBase: new URL("https://luwydev.com"),
-  title: "Luwy Dyro",
-  description:
-    "Luwy Dyro - Developer web Front End, UX Developer, E-commerce, SEO",
-  keywords:
-    "Luwy, Dyro, Desarrollador web, frontend, Ux developer, diseñador web",
-  authors: [{ name: "Luwy Dyro" }],
-  robots: {
-    index: true,
-    follow: false,
-    nocache: false,
-    googleBot: {
-      index: true,
-      follow: false,
-      noimageindex: false,
-      "max-image-preview": "large",
-      "max-snippet": -1,
-    },
-  },
-  icons: {
-    icon: "../public/images/logo/logo_LD.svg",
-  },
+  title: "Proyectos",
   openGraph: {
-    title: "Luwy Dyro | Web Developer",
-    description:
-      "Luwy Dyro - Developer web Front End, UX Developer, E-commerce, SEO",
-    url: "https://luwydev.com",
-    siteName: "Luwy Dyro",
-    images: [
-      {
-        url: "/images/logo/logo_luwydyro_contorno.svg",
-      },
-    ],
-    locale: "es_PE",
-    type: "website",
-  },
+    title: 'Proyectos | Luwy Dyro',
+  }
 };
 
 export function ProjectsPage() {
@@ -60,23 +29,27 @@ export function ProjectsPage() {
           <div className="pt-6 absolute w-full top-0 justify-between box-border flex px-5 lg:px-12 2xl:px-0">
             <div className="flex gap-[42px] justify-start items-center">
               <div className="flex logo justify-start items-center">
+                <Link href={"/"}>
                 <Image
                   className="animate__animated animated flip animate__infinite dark-version logo_home"
                   src={logos.logo_LD}
                   alt="logo"
                   width="27"
                 />
+                </Link>
+                <Link href={"/"}>
                 <Image
                   className="dark-version"
                   src={logos.logo_luwydyro}
                   alt="logo"
                   width="91"
                 />
+                </Link>
               </div>
 
               <div className="flex justify-between text text-lg font-medium font-work text-[#747681]">
                 <h1 className="text-white text-center text-sm hover:text-blue-600 text-h1 transition-all cursor-default">
-                  Luwy Dyro
+                Proyectos
                 </h1>
               </div>
             </div>
@@ -144,19 +117,13 @@ export function ProjectsPage() {
                           Proyectos
                         </h2>
                         <h3 className="text-white font-semibold text-4xl xl:text-5xl xl:leading-snug mb-2">
-                          Trabajos realizados
+                          Web Sites, E-commerce, CSR, SSR
                         </h3>
                       </div>
                       <div className="flex items-center flex-wrap gap-8">
-                        <a
-                          target="_blank"
-                          rel="referrer"
-                          href="#"
-                          className="bg-blue-500 hover:bg-blue-600 transition-all text-white px-6 py-4 rounded-lg inline-flex justify-between items-center"
-                        >
-                          <p className="text-white">Ver más</p>
-                        
-                        </a>
+                        <Link href={"/"} className="bg-blue-500 hover:bg-blue-600 transition-all text-white px-6 py-4 rounded-lg inline-flex justify-between items-center">
+                          <p className="text-white">Volver</p>
+                        </Link>
                       </div>
                     </div>
 

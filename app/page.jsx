@@ -1,8 +1,15 @@
 import Image from "next/image";
+import Link from "next/link";
 import { PreLoader } from "@/components/Preloader";
-import 'animate.css';
-import ProjectsC from "@/components/projects";
-import { logos, icons, profile, about, background } from "@/components/imagenes";
+import "animate.css";
+import ProjectsHome from "@/components/projectshome";
+import {
+  logos,
+  icons,
+  profile,
+  about,
+  background,
+} from "@/components/imagenes";
 import { Slider } from "@/components/slider";
 import { WordWrapper } from "@/components/WordWrapper";
 import { FooterC } from "@/components/Footer";
@@ -10,7 +17,6 @@ import { Sidebar } from "@/components/Sidebar";
 import { MenuMobile } from "@/components/MenuMobile";
 
 export function App() {
-
   return (
     <div style={{ background: "#010825" }} className="max-h-screen h-screen">
       <PreLoader></PreLoader>
@@ -37,19 +43,24 @@ export function App() {
               </div>
 
               <div className="flex justify-between text text-lg font-medium font-work text-[#747681]">
-                <h1 className="text-white text-center text-sm hover:text-blue-600 text-h1 transition-all cursor-default">Luwy Dyro</h1>
+                <h1 className="text-white text-center text-sm hover:text-blue-600 text-h1 transition-all cursor-default">
+                  Luwy Dyro
+                </h1>
               </div>
-
             </div>
             <div className="flex gap-10 items-center">
-            <div className="flex gap-[6px] justify-between text text-lg font-medium font-work text-[#747681]">
+              <div className="flex gap-[6px] justify-between text text-lg font-medium font-work text-[#747681]">
                 <Image src={icons.mail_fast} alt="" />
                 <p>
-                  <a href="mailto:luwy.dyro@gmail.com">luwy.dyro@gmail.com</a>                  
+                  <a href="mailto:luwy.dyro@gmail.com">luwy.dyro@gmail.com</a>
                 </p>
               </div>
               <div className="sm:flex gap-[10px] hidden">
-                 <a href="https://github.com/Luwy-Dyro" target="_blank" rel="noreferrer"  className="w-10 h-10 flex justify-center items-center rounded-lg bg-[rgba(255,255,255,0.1)] group transition-all hover:bg-blue-500"
+                <a
+                  href="https://github.com/Luwy-Dyro"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="w-10 h-10 flex justify-center items-center rounded-lg bg-[rgba(255,255,255,0.1)] group transition-all hover:bg-blue-500"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -62,11 +73,23 @@ export function App() {
                     ></path>
                   </svg>
                 </a>
-                 <a href="https://www.linkedin.com/in/luwydyrofrontend/" target="_blank" rel="noreferrer"  className="w-10 h-10 flex justify-center items-center rounded-lg bg-[rgba(255,255,255,0.1)] group transition-all hover:bg-blue-500"
+                <a
+                  href="https://www.linkedin.com/in/luwydyrofrontend/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="w-10 h-10 flex justify-center items-center rounded-lg bg-[rgba(255,255,255,0.1)] group transition-all hover:bg-blue-500"
                 >
-
-                <svg fill="#747681" height="22" viewBox="-2 -2 24 24" xmlns="http://www.w3.org/2000/svg"><path d='M19.959 11.719v7.379h-4.278v-6.885c0-1.73-.619-2.91-2.167-2.91-1.182 0-1.886.796-2.195 1.565-.113.275-.142.658-.142 1.043v7.187h-4.28s.058-11.66 0-12.869h4.28v1.824l-.028.042h.028v-.042c.568-.875 1.583-2.126 3.856-2.126 2.815 0 4.926 1.84 4.926 5.792zM2.421.026C.958.026 0 .986 0 2.249c0 1.235.93 2.224 2.365 2.224h.028c1.493 0 2.42-.989 2.42-2.224C4.787.986 3.887.026 2.422.026zM.254 19.098h4.278V6.229H.254v12.869z' className="fill-[#747681] group-hover:fill-white" /></svg>
-
+                  <svg
+                    fill="#747681"
+                    height="22"
+                    viewBox="-2 -2 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M19.959 11.719v7.379h-4.278v-6.885c0-1.73-.619-2.91-2.167-2.91-1.182 0-1.886.796-2.195 1.565-.113.275-.142.658-.142 1.043v7.187h-4.28s.058-11.66 0-12.869h4.28v1.824l-.028.042h.028v-.042c.568-.875 1.583-2.126 3.856-2.126 2.815 0 4.926 1.84 4.926 5.792zM2.421.026C.958.026 0 .986 0 2.249c0 1.235.93 2.224 2.365 2.224h.028c1.493 0 2.42-.989 2.42-2.224C4.787.986 3.887.026 2.422.026zM.254 19.098h4.278V6.229H.254v12.869z"
+                      className="fill-[#747681] group-hover:fill-white"
+                    />
+                  </svg>
                 </a>
               </div>
             </div>
@@ -97,11 +120,11 @@ export function App() {
               <Sidebar></Sidebar>
               <div className="h-full w-full rounded-xl lg:rounded-3xl overflow-hidden">
                 <section
-                  className="smooth-scroll md:snap-mandatory snap-y pl-5 sm:pl-12 xl:pl-[90px] pb-[78px] pr-5 xl:pr-[61px] h-full overflow-x-hidden overflow-y-scroll scroll-smooth"
+                  className="snap-y pl-5 sm:pl-12 xl:pl-[90px] pb-[78px] pr-5 xl:pr-[61px] h-full overflow-x-hidden overflow-y-scroll scroll-smooth"
                   id="main"
                 >
                   <div
-                    className="snap-start snap-always slide-sec mx-auto pr-4 sm:pr-6 lg:max-w-7xl lg:pr-8 pt-8 lg:pt-14 pb-20"
+                    className="snap-start snap-normal slide-sec mx-auto pr-4 sm:pr-6 lg:max-w-7xl lg:pr-8 pt-8 lg:pt-14 pb-20"
                     id="home"
                   >
                     <div className="grid lg:grid-cols-2 gap-10 items-center">
@@ -119,14 +142,23 @@ export function App() {
                           Analítico, Creativo e Innovador
                         </p>
                         <div className="flex items-center flex-wrap gap-8">
-                          <a target="_blank" rel="noreferrer"
+                          <a
+                            target="_blank"
+                            rel="noreferrer"
                             href="https://www.linkedin.com/in/luwydyrofrontend/"
                             className="bg-blue-500 hover:bg-blue-600 transition-all text-white px-6 py-4 rounded-lg inline-flex justify-between items-center"
                           >
                             <p className="text-white">Linkedin&nbsp;</p>
-                            <svg xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 448 512">
-                            <path className="fill-[#ffffff] group-hover:fill-white" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
-                            
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              height="18"
+                              viewBox="0 0 448 512"
+                            >
+                              <path
+                                className="fill-[#ffffff] group-hover:fill-white"
+                                d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+                              />
+                            </svg>
                           </a>
                         </div>
                       </div>
@@ -164,7 +196,7 @@ export function App() {
                     </div>
                   </div>
                   <div
-                    className="snap-start snap-always slide-sec grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 pt-10"
+                    className="snap-start snap-normal slide-sec grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 pt-10"
                     id="service"
                   >
                     <div className="px-7 pt-7 pb-5 bg-[#091530] rounded-[10px] shadow-customThree transition-all hover:bg-blue-500 duration-500">
@@ -173,7 +205,9 @@ export function App() {
                         FrontEnd Dev
                       </h4>
                       <p className="text-indigo-200 text-sm mt-3">
-                        Javascript, Angular, NextJS, SAP Commerce Cloud, Composable Store Flor (Spartacus), MySQL, SQL, Dynamo y MongoDB.
+                        Javascript, Angular, NextJS, SAP Commerce Cloud,
+                        Composable Store Flor (Spartacus), MySQL, SQL, Dynamo y
+                        MongoDB.
                       </p>
                     </div>
                     <div className="px-7 pt-7 pb-5 bg-[#091530] rounded-[10px] shadow-customThree transition-all hover:bg-blue-500 duration-500">
@@ -192,7 +226,8 @@ export function App() {
                         E-commerce
                       </h4>
                       <p className="text-indigo-200 text-sm mt-3">
-                      SAP Commerce, Composable Storefront, Woocomerce, Shopify, Magento
+                        SAP Commerce, Composable Storefront, Woocomerce,
+                        Shopify, Magento
                       </p>
                     </div>
                     <div className="px-7 pt-7 pb-5 bg-[#091530] rounded-[10px] shadow-customThree transition-all hover:bg-blue-500 duration-500">
@@ -201,7 +236,8 @@ export function App() {
                         UX/UI
                       </h4>
                       <p className="text-indigo-200 text-sm mt-3">
-                        Diseños web, prototipados, Photoshop, Illustrator, Figma, Adobe XD, Zeplin
+                        Diseños web, prototipados, Photoshop, Illustrator,
+                        Figma, Adobe XD, Zeplin
                       </p>
                     </div>
                     <div className="px-7 pt-7 pb-5 bg-[#091530] rounded-[10px] shadow-customThree transition-all hover:bg-blue-500 duration-500">
@@ -209,18 +245,24 @@ export function App() {
                       <h4 className="text-white text-2xl font-semibold mt-3">
                         E-mailing Marketing
                       </h4>
-                      <p className="text-indigo-200 text-sm mt-3">Mailing responsive, SAP Marketing Cloud, Insider, Mailchimp, Hubsport</p>
+                      <p className="text-indigo-200 text-sm mt-3">
+                        Mailing responsive, SAP Marketing Cloud, Insider,
+                        Mailchimp, Hubsport
+                      </p>
                     </div>
                     <div className="px-7 pt-7 pb-5 bg-[#091530] rounded-[10px] shadow-customThree transition-all hover:bg-blue-500 duration-500">
                       <Image src={about.Frame6} alt="" />
                       <h4 className="text-white text-2xl font-semibold mt-3">
                         Metodología Agile
                       </h4>
-                      <p className="text-indigo-200 text-sm mt-3">Scrum y Kanban - Azure Board, Jira, MS Planner, Notion Trello.</p>
+                      <p className="text-indigo-200 text-sm mt-3">
+                        Scrum y Kanban - Azure Board, Jira, MS Planner, Notion
+                        Trello.
+                      </p>
                     </div>
                   </div>
                   <div
-                    className="snap-start snap-always slide-sec mx-auto lg:max-w-7xl pt-8 lg:pt-[78px] pb-12"
+                    className="snap-start snap-normal slide-sec mx-auto lg:max-w-7xl pt-8 lg:pt-[78px] pb-12"
                     id="about"
                   >
                     <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-10 lg:gap-16 xl:gap-24">
@@ -263,7 +305,8 @@ export function App() {
                           </div>
                           <div className="relative">
                             <b className="text-lg font-medium text-neutral-100 block mb-3">
-                              SAP Commerce Cloud/Composable Store Front (Spartacus)
+                              SAP Commerce Cloud/Composable Store Front
+                              (Spartacus)
                             </b>
                             <div className="w-full h-2 flex items-center rounded overflow-hidden growAnimation">
                               <div
@@ -272,7 +315,7 @@ export function App() {
                               ></div>
                             </div>
                           </div>
-                          
+
                           <div className="relative">
                             <b className="text-lg font-medium text-neutral-100 block mb-3">
                               PSD/Figma/Illustrator
@@ -353,26 +396,34 @@ export function App() {
                               <Image src={about.SAP_logo} alt="Logo SAP" />
                             </li>
                             <li className="absolute -bottom-16 left_8 z-30 moveBottomTopPR">
-                              <Image src={about.Databases_logo} alt="Logos Base de Datos" />
+                              <Image
+                                src={about.Databases_logo}
+                                alt="Logos Base de Datos"
+                              />
                             </li>
                             <li className="absolute -top-[70px] -right-12 z-30 moveTopBottomPR">
-                              <Image src={about.toolDsg} alt="Logos de Edicion" />
+                              <Image
+                                src={about.toolDsg}
+                                alt="Logos de Edicion"
+                              />
                             </li>
                             <li className="absolute -bottom-14 -right-12 z-30 moveRightLeftPR">
-                              <Image src={about.next_angular} alt="Logos Framework" />
+                              <Image
+                                src={about.next_angular}
+                                alt="Logos Framework"
+                              />
                             </li>
-    
                           </ul>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div
-                    className="snap-start snap-always slide-sec pt-[46px] pb-8"
+                    className="snap-start snap-normal slide-sec pt-[46px] pb-8"
                     id="projects"
                   >
                     <div className="flex flex-col sm:flex-row justify-between items-center gap-4 pb-10">
-                      <div >
+                      <div>
                         <h2 className="uppercase text-lg text-blue-500 font-medium block mb-3">
                           Proyectos
                         </h2>
@@ -380,14 +431,20 @@ export function App() {
                           Trabajos realizados
                         </h3>
                       </div>
-                  
-
                     </div>
 
-                    <ProjectsC></ProjectsC>
+                    <ProjectsHome></ProjectsHome>
+                    <div className="flex justify-center items-center mt-10">
+                      <Link
+                        href={"/projects"}
+                        className="bg-blue-500 hover:bg-blue-600 transition-all text-white px-6 py-4 rounded-lg inline-flex justify-between items-center"
+                      >
+                        <p className="text-white">Ver todos</p>
+                      </Link>
+                    </div>
                   </div>
                   <div
-                    className="snap-start snap-always slide-sec mx-auto pt-[38px] lg:max-w-7xl"
+                    className="snap-start snap-normal slide-sec mx-auto pt-[38px] lg:max-w-7xl"
                     id="review"
                   >
                     <div className="pt-[7rem] pb-[5rem]">
@@ -400,7 +457,7 @@ export function App() {
                     </div>
                   </div>
                   <div
-                    className="snap-start snap-always slide-sec mx-auto pt-8 lg:pt-16 pb-3 lg:max-w-7xl"
+                    className="snap-start snap-normal slide-sec mx-auto pt-8 lg:pt-16 pb-3 lg:max-w-7xl"
                     id="contact"
                   >
                     <div>
@@ -418,7 +475,10 @@ export function App() {
                             <div className="flex-col gap-x-7 gap-y-5 flex">
                               <div className="text-center flex justify-center">
                                 <div className="w-20 h-20 text-center flex justify-center items-center rounded-full bg-[rgba(255,255,255,0.1)] group transition-all icon_contact">
-                                  <Image alt="logo Redes Sociales" src={icons.IconRrss}/>
+                                  <Image
+                                    alt="logo Redes Sociales"
+                                    src={icons.IconRrss}
+                                  />
                                 </div>
                               </div>
                               <div className="head-box-contact">
@@ -428,15 +488,27 @@ export function App() {
                               </div>
                               <div>
                                 <p className="block mb-2 text-base font-medium text-center text-neutral-500">
-                                  <a href="https://Instagram" target="_blank" rel="noopener noreferrer">
+                                  <a
+                                    href="https://Instagram"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                  >
                                     Instagram
                                   </a>{" "}
                                   -{" "}
-                                  <a href="https://x.com" target="_blank" rel="noopener noreferrer">
+                                  <a
+                                    href="https://x.com"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                  >
                                     Twitter
                                   </a>{" "}
                                   -{" "}
-                                  <a href="https://www.linkedin.com/in/luwydyrofrontend/" target="_blank" rel="noreferrer">
+                                  <a
+                                    href="https://www.linkedin.com/in/luwydyrofrontend/"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
                                     Linkedin
                                   </a>
                                 </p>
@@ -451,7 +523,10 @@ export function App() {
                             <div className="flex-col gap-x-7 gap-y-5 flex">
                               <div className="text-center flex justify-center">
                                 <div className="w-20 h-20 text-center flex justify-center items-center rounded-full bg-[rgba(255,255,255,0.1)] group transition-all icon_contact">
-                                  <Image alt="logo correo" src={icons.IconEmail}/>
+                                  <Image
+                                    alt="logo correo"
+                                    src={icons.IconEmail}
+                                  />
                                 </div>
                               </div>
                               <div className="head-box-contact">
@@ -461,7 +536,9 @@ export function App() {
                               </div>
                               <div>
                                 <p className="block mb-2 text-base font-medium text-center text-neutral-500">
-                                  <a href="mailto:luwy.dyro@gmail.com">luwy.dyro@gmail.com</a> 
+                                  <a href="mailto:luwy.dyro@gmail.com">
+                                    luwy.dyro@gmail.com
+                                  </a>
                                 </p>
                               </div>
                             </div>
@@ -474,7 +551,7 @@ export function App() {
                             <div className="flex-col gap-x-7 gap-y-5 flex">
                               <div className="text-center flex justify-center">
                                 <div className="w-20 h-20 text-center flex justify-center items-center rounded-full bg-[rgba(255,255,255,0.1)] group transition-all icon_contact">
-                                  <Image alt="logo DEV" src={icons.IconDev}/>
+                                  <Image alt="logo DEV" src={icons.IconDev} />
                                 </div>
                               </div>
                               <div className="head-box-contact">
@@ -484,7 +561,11 @@ export function App() {
                               </div>
                               <div>
                                 <p className="block mb-2 text-base font-medium text-center text-neutral-500">
-                                  <a href="https://github.com/Luwy-Dyro"target="_blank" rel="noreferrer">
+                                  <a
+                                    href="https://github.com/Luwy-Dyro"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
                                     Github
                                   </a>
                                 </p>
