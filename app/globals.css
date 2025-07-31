@@ -2,7 +2,7 @@
 
 :root {
   --color-primary: #007aff;
-    font-size: 16px;
+  font-size: 16px;
 }
 
 body {
@@ -17,12 +17,12 @@ a {
   text-decoration: none;
 }
 @media (width >= 96rem) {
-.container{
-  max-width: 83rem !important
-}
+  .container {
+    max-width: 83rem !important;
+  }
 }
 .left_8 {
-  left:-1.5rem;
+  left: -1.5rem;
 }
 .left_20 {
   left: 20%;
@@ -42,10 +42,12 @@ a {
   --animate-duration: 3.5s;
 }
 
-
 /*  Home  */
 .logo img {
   margin-left: 0.3rem;
+}
+.text-h1 {
+  font-size: 0rem;
 }
 
 @media screen and (max-width: 25rem) {
@@ -59,7 +61,7 @@ a {
 }
 .smooth-scroll {
   scroll-behavior: smooth !important;
-  }
+}
 
 /*  End Home  */
 /*  Custom Cursor */
@@ -788,12 +790,11 @@ section::-webkit-scrollbar-thumb {
 }
 
 .close-mnav-right ul {
-  transition: width .5s ease-in-out, display 2s ease allow-discrete;
+  transition: width 0.5s ease-in-out, display 2s ease allow-discrete;
   right: -1.875rem;
   width: 0px;
-  right: -1.875rem
+  right: -1.875rem;
 }
-
 
 .active-mnav-right svg:first-child {
   display: none;

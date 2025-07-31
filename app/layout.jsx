@@ -4,9 +4,9 @@ import "./globals.css";
 export const metadata = {
   metadataBase: new URL('https://luwydev.com'),
   title: "Luwy Dyro",
-  description: "Soy desarrollador web, tengo conocimientos gráficos UX/UI, FrontEnd Dev, Web Design, E-commerce",
-  keywords: "creative agency, personal, corporate, freelance, software",
-  authors: [{name:"LuwyDyro"}],
+  description: "Luwy Dyro - Developer web Front End, UX Developer, E-commerce, SEO",
+  keywords: "Luwy, Dyro, Desarrollador web, frontend, Ux developer, diseñador web",
+  authors: [{name:"Luwy Dyro"}],
   robots: {
     index: true,
     follow: false,
@@ -23,13 +23,13 @@ export const metadata = {
   icon: "../public/images/logo/logo_LD.svg",
   },  
   openGraph: {
-    title: 'Luwy Dyro',
-    description: 'Soy desarrollador web, tengo conocimientos gráficos UX/UI, FrontEnd Dev, Web Design, E-commerce',
+    title: 'Luwy Dyro | Web Developer',
+    description: 'Luwy Dyro - Developer web Front End, UX Developer, E-commerce, SEO',
     url: 'https://luwydev.com',
     siteName: 'Luwy Dyro',
     images: [
       {
-        url: 'public/images/logo/logo_luwydyro_contorno.svg',
+        url: '/images/logo/logo_luwydyro_contorno.svg',
       },
     ],
     locale: 'es_PE',

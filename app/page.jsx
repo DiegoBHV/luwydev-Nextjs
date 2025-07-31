@@ -37,7 +37,7 @@ export function App() {
               </div>
 
               <div className="flex justify-between text text-lg font-medium font-work text-[#747681]">
-                <h1 className="text-white text-center text-sm hover:text-blue-600 transition-all cursor-default">Luwy Dyro</h1>
+                <h1 className="text-white text-center text-sm hover:text-blue-600 text-h1 transition-all cursor-default">Luwy Dyro</h1>
               </div>
 
             </div>
