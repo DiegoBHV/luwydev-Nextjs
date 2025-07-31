@@ -27,7 +27,7 @@ export function ProjectsPage() {
       >
         <div className="container h-full w-full box-border relative pt-[72px] pb-6 sm:pt-[105px] sm:pb-[37px]">
           <div className="pt-6 absolute w-full top-0 justify-between box-border flex px-5 lg:px-12 2xl:px-0">
-            <div className="flex gap-[42px] justify-start items-center">
+            <div className="flex gap-2 sm:gap-[42px] justify-start items-center">
               <div className="flex logo justify-start items-center">
                 <Link href={"/"}>
                 <Image
@@ -56,7 +56,7 @@ export function ProjectsPage() {
             <div className="flex gap-10 items-center">
               <div className="flex gap-[6px] justify-between text text-lg font-medium font-work text-[#747681]">
                 <Image src={icons.mail_fast} alt="" />
-                <p>
+                 <p className="text-neutral-500 text-sm sm:text-lg hover:text-white transition-all">
                   <a href="mailto:luwy.dyro@gmail.com">luwy.dyro@gmail.com</a>
                 </p>
               </div>

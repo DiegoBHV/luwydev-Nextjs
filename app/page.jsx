@@ -51,7 +51,7 @@ export function App() {
             <div className="flex gap-10 items-center">
               <div className="flex gap-[6px] justify-between text text-lg font-medium font-work text-[#747681]">
                 <Image src={icons.mail_fast} alt="" />
-                <p>
+                <p className="text-neutral-500 text-lg hover:text-white transition-all">
                   <a href="mailto:luwy.dyro@gmail.com">luwy.dyro@gmail.com</a>
                 </p>
               </div>
