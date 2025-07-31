@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata = {
   metadataBase: new URL('https://luwydev.com'),
-  title: "LuwyDyro Web Developer",
+  title: "Luwy Dyro",
   description: "Soy desarrollador web, tengo conocimientos gráficos UX/UI, FrontEnd Dev, Web Design, E-commerce",
   keywords: "creative agency, personal, corporate, freelance, software",
   authors: [{name:"LuwyDyro"}],
@@ -23,10 +23,10 @@ export const metadata = {
   icon: "../public/images/logo/logo_LD.svg",
   },  
   openGraph: {
-    title: 'LuwyDyro Web Developer',
+    title: 'Luwy Dyro',
     description: 'Soy desarrollador web, tengo conocimientos gráficos UX/UI, FrontEnd Dev, Web Design, E-commerce',
     url: 'https://luwydev.com',
-    siteName: 'LuwyDyro Web Developer',
+    siteName: 'Luwy Dyro',
     images: [
       {
         url: 'public/images/logo/logo_luwydyro_contorno.svg',
