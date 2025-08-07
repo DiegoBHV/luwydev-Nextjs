@@ -2,7 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { PreLoader } from "@/components/Preloader";
 import "animate.css";
-import ProjectsHome from "@/components/projectshome";
+import ProjectsCMS from "@/components/projectscms";
+import ProjectsAngular from "@/components/projectsangular";
+import ProjectsNext from "@/components/projectsnext";
 import {
   logos,
   icons,
@@ -422,18 +424,35 @@ export function App() {
                     className="snap-start snap-normal slide-sec pt-[46px] pb-8"
                     id="projects"
                   >
-                    <div className="flex flex-col sm:flex-row justify-between items-center gap-4 pb-10">
+                    <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
                       <div>
                         <h2 className="uppercase text-lg text-blue-500 font-medium block mb-3">
                           Proyectos
                         </h2>
-                        <h3 className="text-white font-semibold text-4xl xl:text-5xl xl:leading-snug mb-2">
+                        <h3 className="text-white font-semibold text-4xl xl:text-5xl xl:leading-snug">
                           Trabajos realizados
                         </h3>
                       </div>
                     </div>
+                    <div className="flex justify-center flex-col  py-5">
+                      <h4 className="text-white text-2xl xl:text-3xl xl:leading-snug mb-2">
+                        Angular / CSR – SSR
+                      </h4>
+                      <ProjectsAngular></ProjectsAngular>
+                    </div>
+                    <div className="flex justify-center flex-col py-5">
+                      <h4 className="text-white text-2xl xl:text-3xl xl:leading-snug mb-2">
+                        NextJS - React/ CSR – SSR
+                      </h4>
+                      <ProjectsNext></ProjectsNext>
+                    </div>
+                    <div className="flex justify-center flex-col pt-5">
+                      <h4 className="text-white text-2xl xl:text-3xl xl:leading-snug mb-2">
+                        CMS - Ecommerce 
+                      </h4>
+                      <ProjectsCMS></ProjectsCMS>
+                    </div>
 
-                    <ProjectsHome></ProjectsHome>
                     <div className="flex justify-center items-center mt-10">
                       <Link
                         href={"/projects"}

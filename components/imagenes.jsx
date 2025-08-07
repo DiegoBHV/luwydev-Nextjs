@@ -49,15 +49,20 @@ import person from "@/public/images/profile/person.png";
 import text_circle from "@/public/images/profile/text_circle.png";
 import w_circle from "@/public/images/profile/w_circle.png";
 //projects
-import project1 from "@/public/images/projects/project1.jpg";
-import project2 from "@/public/images/projects/project2.jpg";
-import project3 from "@/public/images/projects/project3.jpg";
-import project4 from "@/public/images/projects/project4.jpg";
-import project5 from "@/public/images/projects/project5.jpg";
-import project6 from "@/public/images/projects/project6.jpg";
+import belcorp from "@/public/images/projects/belcorp.jpg";
+import removex from "@/public/images/projects/removex.jpg";
+import florBenavides from "@/public/images/projects/florBenavides.jpg";
+import Bianely from "@/public/images/projects/Bianely.jpg";
+import grubba from "@/public/images/projects/grubba.jpg";
+import yanbal from "@/public/images/projects/yanbal.jpg";
 import jjmining from "@/public/images/projects/jjmining.jpg";
 import training from "@/public/images/projects/training.jpg";
 import servtecnicos from "@/public/images/projects/serviciostecnicos.png";
+import fastBillings from "@/public/images/projects/fastBillings.png";
+import shopRest from "@/public/images/projects/shopRest.png";
+import ReactiveForms from "@/public/images/projects/ReactiveForms.png";
+import luwydev from "@/public/images/projects/luwydev.jpg";
+import shopReact from "@/public/images/projects/shopReact.jpg";
 
 export const about = {
     "next_angular" : next_angular,
@@ -115,15 +120,20 @@ export const profile = {
     "w_circle" : w_circle,
     }
 export const projects = {
-    "project1" : project1,
-    "project2" : project2,
-    "project3" : project3,
-    "project4" : project4,
-    "project5" : project5,
-    "project6" : project6,
+    "belcorp" : belcorp,
+    "removex" : removex,
+    "florBenavides" : florBenavides,
+    "Bianely" : Bianely,
+    "grubba" : grubba,
+    "yanbal" : yanbal,
     "jjmining" : jjmining,
     "training" : training,
     "servtecnicos" : servtecnicos,
+    "fastBillings" : fastBillings,
+    "shopRest" : shopRest,
+    "ReactiveForms" : ReactiveForms,
+    "luwydev" : luwydev,
+    "shopReact" : shopReact,
 }
 export default {
  ...about,
