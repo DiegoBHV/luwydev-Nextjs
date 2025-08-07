@@ -12,7 +12,7 @@ export default function ProjectsNext() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Yanbal
+              Shop React
             </a>
           </h4>
           <ul className="list-disc">
@@ -43,7 +43,7 @@ export default function ProjectsNext() {
         <Image
           className="w-full rounded-lg"
           src={projects.shopReact}
-          alt="Yanbal"
+          alt="Shop React"
         />
       </div>
       <div className="w-full h-fit relative group">
@@ -54,7 +54,7 @@ export default function ProjectsNext() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Yanbal
+              LuwyDev
             </a>
           </h4>
           <ul className="list-disc">
