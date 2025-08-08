@@ -62,7 +62,7 @@ import fastBillings from "@/public/images/projects/fastBillings.png";
 import shopRest from "@/public/images/projects/shopRest.png";
 import ReactiveForms from "@/public/images/projects/ReactiveForms.png";
 import luwydev from "@/public/images/projects/luwydev.jpg";
-import shopReact from "@/public/images/projects/shopReact.jpg";
+import shopReact from "@/public/images/projects/shopReact.png";
 
 export const about = {
     "next_angular" : next_angular,
