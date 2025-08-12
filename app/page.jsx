@@ -285,17 +285,6 @@ export function App() {
                         <div className="mb-10 space-y-4">
                           <div className="relative">
                             <b className="text-lg font-medium text-neutral-100 block mb-3">
-                              SCSS/Tailwind
-                            </b>
-                            <div className="w-full h-2 rounded flex items-center overflow-hidden growAnimation">
-                              <div
-                                className="bg-blue-500 h-2 rounded origin-left"
-                                style={{ width: "100%" }}
-                              ></div>
-                            </div>
-                          </div>
-                          <div className="relative">
-                            <b className="text-lg font-medium text-neutral-100 block mb-3">
                               Angular/NextJs
                             </b>
                             <div className="w-full h-2 rounded flex items-center overflow-hidden growAnimation">
@@ -307,20 +296,30 @@ export function App() {
                           </div>
                           <div className="relative">
                             <b className="text-lg font-medium text-neutral-100 block mb-3">
-                              SAP Commerce Cloud/Composable Store Front
-                              (Spartacus)
+                              TailwindCSS/Bootstrap/DeysiUI/Material UI/SCSS
                             </b>
-                            <div className="w-full h-2 flex items-center rounded overflow-hidden growAnimation">
+                            <div className="w-full h-2 rounded flex items-center overflow-hidden growAnimation">
                               <div
                                 className="bg-blue-500 h-2 rounded origin-left"
-                                style={{ width: "80%" }}
+                                style={{ width: "100%" }}
+                              ></div>
+                            </div>
+                          </div>
+                          <div className="relative">
+                            <b className="text-lg font-medium text-neutral-100 block mb-3">
+                              Post CSS / BEM / OOCSS / SMACSS
+                            </b>
+                            <div className="w-full h-2 rounded flex items-center overflow-hidden growAnimation">
+                              <div
+                                className="bg-blue-500 h-2 rounded origin-left"
+                                style={{ width: "100%" }}
                               ></div>
                             </div>
                           </div>
 
                           <div className="relative">
                             <b className="text-lg font-medium text-neutral-100 block mb-3">
-                              PSD/Figma/Illustrator
+                              Signasl, RxJS, Auth, Effect, Unit test, Jest, TDD
                             </b>
                             <div className="w-full h-2 flex items-center rounded overflow-hidden growAnimation">
                               <div
@@ -342,18 +341,7 @@ export function App() {
                           </div>
                           <div className="relative">
                             <b className="text-lg font-medium text-neutral-100 block mb-3">
-                              JIRA/Board Azure
-                            </b>
-                            <div className="w-full h-2 flex items-center rounded overflow-hidden growAnimation">
-                              <div
-                                className="bg-blue-500 h-2 rounded origin-left"
-                                style={{ width: "50%" }}
-                              ></div>
-                            </div>
-                          </div>
-                          <div className="relative">
-                            <b className="text-lg font-medium text-neutral-100 block mb-3">
-                              Scrum/Kanban
+                              PSD/Figma/Illustrator
                             </b>
                             <div className="w-full h-2 flex items-center rounded overflow-hidden growAnimation">
                               <div
@@ -362,25 +350,85 @@ export function App() {
                               ></div>
                             </div>
                           </div>
+
                           <div className="relative">
                             <b className="text-lg font-medium text-neutral-100 block mb-3">
-                              CMS (WooCommerce – Adobe Commerce)
+                              Scrum/Kanban/JIRA/Board Azure
                             </b>
                             <div className="w-full h-2 flex items-center rounded overflow-hidden growAnimation">
                               <div
                                 className="bg-blue-500 h-2 rounded origin-left"
-                                style={{ width: "90%" }}
+                                style={{ width: "75%" }}
                               ></div>
                             </div>
                           </div>
                           <div className="relative">
                             <b className="text-lg font-medium text-neutral-100 block mb-3">
-                              Azure Dev
+                              GitHub, GitLab, BitBucket, Docker
                             </b>
                             <div className="w-full h-2 flex items-center rounded overflow-hidden growAnimation">
                               <div
                                 className="bg-blue-500 h-2 rounded origin-left"
                                 style={{ width: "85%" }}
+                              ></div>
+                            </div>
+                          </div>
+                          <div className="relative">
+                            <b className="text-lg font-medium text-neutral-100 block mb-3">
+                              EsLint / Prettier / Lighthouse / PageSpeed /
+                              BrowserStack
+                            </b>
+                            <div className="w-full h-2 flex items-center rounded overflow-hidden growAnimation">
+                              <div
+                                className="bg-blue-500 h-2 rounded origin-left"
+                                style={{ width: "100%" }}
+                              ></div>
+                            </div>
+                          </div>
+                          <div className="relative">
+                            <b className="text-lg font-medium text-neutral-100 block mb-3">
+                              Webpack, Module - Vite Federation
+                            </b>
+                            <div className="w-full h-2 flex items-center rounded overflow-hidden growAnimation">
+                              <div
+                                className="bg-blue-500 h-2 rounded origin-left"
+                                style={{ width: "80%" }}
+                              ></div>
+                            </div>
+                          </div>
+
+                          <div className="relative">
+                            <b className="text-lg font-medium text-neutral-100 block mb-3">
+                              Azure, Render, Vercel, Netlify, Neon Console,
+                              Firebase
+                            </b>
+                            <div className="w-full h-2 flex items-center rounded overflow-hidden growAnimation">
+                              <div
+                                className="bg-blue-500 h-2 rounded origin-left"
+                                style={{ width: "85%" }}
+                              ></div>
+                            </div>
+                          </div>
+                          <div className="relative">
+                            <b className="text-lg font-medium text-neutral-100 block mb-3">
+                              SAP Commerce Cloud/Composable Store Front
+                              (Angular20)
+                            </b>
+                            <div className="w-full h-2 flex items-center rounded overflow-hidden growAnimation">
+                              <div
+                                className="bg-blue-500 h-2 rounded origin-left"
+                                style={{ width: "80%" }}
+                              ></div>
+                            </div>
+                          </div>
+                          <div className="relative">
+                            <b className="text-lg font-medium text-neutral-100 block mb-3">
+                              CMS (WooCommerce – Pasarelas de Pago)
+                            </b>
+                            <div className="w-full h-2 flex items-center rounded overflow-hidden growAnimation">
+                              <div
+                                className="bg-blue-500 h-2 rounded origin-left"
+                                style={{ width: "90%" }}
                               ></div>
                             </div>
                           </div>
@@ -415,6 +463,22 @@ export function App() {
                                 alt="Logos Framework"
                               />
                             </li>
+                            <li className="absolute bottom-200 right-[20px] z-30 moveBottomTopPR">
+                              <Image src={about.azure} alt="Logo azure" />
+                            </li>
+                            <li className="absolute bottom-300 right_50 z-30 moveTopBottomPR">
+                              <Image src={about.git} alt="Logo git" />
+                            </li>
+                            <li className="absolute bottom-150 z-30 moveLeftRightPR">
+                              <Image src={about.render} alt="Logo render" />
+                            </li>
+
+                            <li className="absolute top-270 right-[0px] z-30 moveRightLeftPR">
+                              <Image src={about.vercel} alt="Logo vercel" />
+                            </li>
+                            <li className="absolute top-200 left-[10px] z-30 moveLeftRightPR">
+                              <Image src={about.netlify} alt="Logo netlify" />
+                            </li>
                           </ul>
                         </div>
                       </div>
@@ -448,7 +512,7 @@ export function App() {
                     </div>
                     <div className="flex justify-center flex-col pt-5">
                       <h4 className="text-white text-2xl xl:text-3xl xl:leading-snug mb-2">
-                        CMS - Ecommerce 
+                        CMS - Ecommerce
                       </h4>
                       <ProjectsCMS></ProjectsCMS>
                     </div>

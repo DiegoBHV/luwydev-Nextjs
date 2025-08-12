@@ -12,6 +12,12 @@ import Frame5 from '@/public/images/about/Frame5.svg';
 import Frame6 from '@/public/images/about/Frame6.svg';
 import SAP_logo from '@/public/images/about/SAP_logo.png';
 import toolDsg from '@/public/images/about/toolDsg.png';
+import azure from '@/public/images/about/azure.svg';
+import render from '@/public/images/about/render.svg';
+import vercel from '@/public/images/about/vercel.svg';
+import netlify from '@/public/images/about/netlify.svg';
+import git from '@/public/images/about/git.svg';
+
 // icons
 import archives from "@/public/images/icon/archives.png";
 import briefcase from "@/public/images/icon/briefcase.png";
@@ -63,6 +69,7 @@ import shopRest from "@/public/images/projects/shopRest.png";
 import ReactiveForms from "@/public/images/projects/ReactiveForms.png";
 import luwydev from "@/public/images/projects/luwydev.jpg";
 import shopReact from "@/public/images/projects/shopReact.png";
+import luwygames from "@/public/images/projects/luwygames.jpg";
 
 export const about = {
     "next_angular" : next_angular,
@@ -76,6 +83,11 @@ export const about = {
     "Frame6" : Frame6,
     "SAP_logo" : SAP_logo,
     "toolDsg" : toolDsg,
+    "azure" : azure,
+    "render" : render,
+    "vercel" : vercel,
+    "netlify" : netlify,
+    "git" : git,
 }
 export const background = {
     "BG" : BG,
@@ -134,6 +146,7 @@ export const projects = {
     "ReactiveForms" : ReactiveForms,
     "luwydev" : luwydev,
     "shopReact" : shopReact,
+    "luwygames" : luwygames,
 }
 export default {
  ...about,

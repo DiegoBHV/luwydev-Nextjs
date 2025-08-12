@@ -34,6 +34,26 @@ a {
 .right_30 {
   right: 30%;
 }
+.top-200 {
+  top: -200px;
+}
+.top-270 {
+  top: -270px;
+}
+.bottom-150 {
+  bottom: -150px;
+}
+
+.bottom-200 {
+  bottom: -200px;
+}
+
+.bottom-300 {
+  bottom: -300px;
+}
+
+
+
 
 .-left-10 {
   left: 10rem;
@@ -715,6 +735,27 @@ section::-webkit-scrollbar-thumb {
     transform: translateX(-1.25rem);
   }
 }
+
+
+.moveLeftRightPR {
+  animation: moveLeftRightPR 3s linear infinite;
+  transition: 0.5s;
+}
+
+@keyframes moveLeftRightPR {
+  0% {
+    transform: translateX(1.25rem);
+  }
+
+  50% {
+    transform: translateX(0px);
+  }
+
+  100% {
+    transform: translateX(1.25rem);
+  }
+}
+
 
 .moveTopBottomPR {
   animation: moveTopBottomPR 3s linear infinite;
