@@ -17,6 +17,8 @@ import render from '@/public/images/about/render.svg';
 import vercel from '@/public/images/about/vercel.svg';
 import netlify from '@/public/images/about/netlify.svg';
 import git from '@/public/images/about/git.svg';
+import neon_console from '@/public/images/about/neon_console.svg';
+import wordpress from '@/public/images/about/wordpress.svg';
 
 // icons
 import archives from "@/public/images/icon/archives.png";
@@ -70,6 +72,7 @@ import ReactiveForms from "@/public/images/projects/ReactiveForms.png";
 import luwydev from "@/public/images/projects/luwydev.jpg";
 import shopReact from "@/public/images/projects/shopReact.png";
 import luwygames from "@/public/images/projects/luwygames.jpg";
+import ngrx_signal from "@/public/images/projects/ngrx_signal.jpg";
 
 export const about = {
     "next_angular" : next_angular,
@@ -88,6 +91,8 @@ export const about = {
     "vercel" : vercel,
     "netlify" : netlify,
     "git" : git,
+    "neon_console" : neon_console,
+    "wordpress" : wordpress,
 }
 export const background = {
     "BG" : BG,
@@ -147,6 +152,7 @@ export const projects = {
     "luwydev" : luwydev,
     "shopReact" : shopReact,
     "luwygames" : luwygames,
+    "ngrx_signal" : ngrx_signal,
 }
 export default {
  ...about,

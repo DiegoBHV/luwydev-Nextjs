@@ -319,12 +319,23 @@ export function App() {
 
                           <div className="relative">
                             <b className="text-lg font-medium text-neutral-100 block mb-3">
-                              Signasl, RxJS, Auth, Effect, Unit test, Jest, TDD
+                              RxJS, Signals, Effect, Auth, NgRX
                             </b>
                             <div className="w-full h-2 flex items-center rounded overflow-hidden growAnimation">
                               <div
                                 className="bg-blue-500 h-2 rounded origin-left"
-                                style={{ width: "90%" }}
+                                style={{ width: "75%" }}
+                              ></div>
+                            </div>
+                          </div>
+                          <div className="relative">
+                            <b className="text-lg font-medium text-neutral-100 block mb-3">
+                              Unit Test, Jest, TDD
+                            </b>
+                            <div className="w-full h-2 flex items-center rounded overflow-hidden growAnimation">
+                              <div
+                                className="bg-blue-500 h-2 rounded origin-left"
+                                style={{ width: "75%" }}
                               ></div>
                             </div>
                           </div>
@@ -335,7 +346,7 @@ export function App() {
                             <div className="w-full h-2 flex items-center rounded overflow-hidden growAnimation">
                               <div
                                 className="bg-blue-500 h-2 rounded origin-left"
-                                style={{ width: "85%" }}
+                                style={{ width: "70%" }}
                               ></div>
                             </div>
                           </div>
@@ -358,7 +369,7 @@ export function App() {
                             <div className="w-full h-2 flex items-center rounded overflow-hidden growAnimation">
                               <div
                                 className="bg-blue-500 h-2 rounded origin-left"
-                                style={{ width: "75%" }}
+                                style={{ width: "95%" }}
                               ></div>
                             </div>
                           </div>
@@ -463,21 +474,34 @@ export function App() {
                                 alt="Logos Framework"
                               />
                             </li>
-                            <li className="absolute bottom-200 right-[20px] z-30 moveBottomTopPR">
-                              <Image src={about.azure} alt="Logo azure" />
-                            </li>
-                            <li className="absolute bottom-300 right_50 z-30 moveTopBottomPR">
-                              <Image src={about.git} alt="Logo git" />
-                            </li>
-                            <li className="absolute bottom-150 z-30 moveLeftRightPR">
-                              <Image src={about.render} alt="Logo render" />
-                            </li>
 
                             <li className="absolute top-270 right-[0px] z-30 moveRightLeftPR">
                               <Image src={about.vercel} alt="Logo vercel" />
                             </li>
-                            <li className="absolute top-200 left-[10px] z-30 moveLeftRightPR">
+                            <li className="absolute top-200 -left-[40px] z-30 moveLeftRightPR">
                               <Image src={about.netlify} alt="Logo netlify" />
+                            </li>
+                            <li className="absolute bottom-200 right-[50px] z-30 moveBottomTopPR">
+                              <Image src={about.git} alt="Logo git" />
+                            </li>
+
+                            <li className="absolute bottom-150 z-30 moveLeftRightPR">
+                              <Image src={about.render} alt="Logo render" />
+                            </li>
+                            <li className="absolute bottom-300 left_10 z-30 moveTopBottomPR ">
+                              <Image src={about.azure} alt="Logo azure" />
+                            </li>
+                            <li className="absolute bottom-300 right-[20px] z-30 moveRightLeftPR">
+                              <Image
+                                src={about.neon_console}
+                                alt="Logo Neon Console"
+                              />
+                            </li>
+                            <li className="absolute bottom-400 right_30 z-30 moveLeftRightPR">
+                              <Image
+                                src={about.wordpress}
+                                alt="Logo wordpress"
+                              />
                             </li>
                           </ul>
                         </div>

@@ -24,8 +24,8 @@ a {
 .left_8 {
   left: -1.5rem;
 }
-.left_20 {
-  left: 20%;
+.left_10 {
+  left: 10%;
 }
 .right_50 {
   right: 50%;
@@ -40,6 +40,9 @@ a {
 .top-270 {
   top: -270px;
 }
+.top-300 {
+  top: -300px;
+}
 .bottom-150 {
   bottom: -150px;
 }
@@ -51,7 +54,9 @@ a {
 .bottom-300 {
   bottom: -300px;
 }
-
+.bottom-400 {
+  bottom: -400px;
+}
 
 
 
