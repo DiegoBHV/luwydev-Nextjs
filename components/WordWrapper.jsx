@@ -1,6 +1,6 @@
 "use client"
 import $ from "jquery";
-import { useEffect} from "react";
+import { useEffect } from "react";
 export const WordWrapper = () => {
   useEffect(() => {
     // Animation timing

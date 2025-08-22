@@ -218,7 +218,7 @@ export function App() {
                       </h4>
                       <p className="text-indigo-200 text-sm mt-3">
                         Colab en diseño e implementación de microservicios,
-                        RestFul, Spring Boot, ExpressJS
+                        RestFul, Spring Boot, Mysql, SQL Server, MongoDB
                       </p>
                     </div>
                     <div className="px-7 pt-7 pb-5 bg-[#091530] rounded-[10px] shadow-customThree transition-all hover:bg-blue-500 duration-500">
