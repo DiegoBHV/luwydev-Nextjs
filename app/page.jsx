@@ -141,7 +141,7 @@ export function App() {
                           </span>
                         </div>
                         <p className="text-xl lg:text-2xl text-neutral-100 pb-10 text_2">
-                          Analítico, Creativo e Innovador
+                          Creativo, Analítico y Calaborativo
                         </p>
                         <div className="flex items-center flex-wrap gap-8">
                           <a
@@ -204,52 +204,40 @@ export function App() {
                     <div className="px-7 pt-7 pb-5 bg-[#091530] rounded-[10px] shadow-customThree transition-all hover:bg-blue-500 duration-500">
                       <Image src={about.Frame3} alt="" />
                       <h4 className="text-white text-2xl font-semibold mt-3">
-                        FrontEnd Dev
+                        Dev Front End
                       </h4>
                       <p className="text-indigo-200 text-sm mt-3">
-                        Javascript, Angular, NextJS, SAP Commerce Cloud,
-                        Composable Store Flor (Spartacus), MySQL, SQL, Dynamo y
-                        MongoDB.
+                        SPA, Web Components, SSR, CSR, Angular 19+, NextJS,
+                        RxJS, Signals, Hooks
                       </p>
                     </div>
                     <div className="px-7 pt-7 pb-5 bg-[#091530] rounded-[10px] shadow-customThree transition-all hover:bg-blue-500 duration-500">
                       <Image src={about.Frame} alt="" />
                       <h4 className="text-white text-2xl font-semibold mt-3">
-                        Web Design
+                        Microservicios
                       </h4>
                       <p className="text-indigo-200 text-sm mt-3">
-                        Websites estaticas y dinámicas, landings, layouts
-                        responsives, Mailings, SAP Marketing cloud - Mailchimp
+                        Colab en diseño e implementación de microservicios,
+                        RestFul, Spring Boot, ExpressJS
                       </p>
                     </div>
                     <div className="px-7 pt-7 pb-5 bg-[#091530] rounded-[10px] shadow-customThree transition-all hover:bg-blue-500 duration-500">
                       <Image src={about.Frame2} alt="" />
                       <h4 className="text-white text-2xl font-semibold mt-3">
-                        E-commerce
+                        Ecommerce CMS
                       </h4>
                       <p className="text-indigo-200 text-sm mt-3">
-                        SAP Commerce, Composable Storefront, Woocomerce,
-                        Shopify, Magento
+                        SAP Commerce Cloud, Storefront, Woocomerce, Pasarelas de
+                        Pago
                       </p>
                     </div>
                     <div className="px-7 pt-7 pb-5 bg-[#091530] rounded-[10px] shadow-customThree transition-all hover:bg-blue-500 duration-500">
                       <Image src={about.Frame4} alt="" />
                       <h4 className="text-white text-2xl font-semibold mt-3">
-                        UX/UI
+                        UX Developer
                       </h4>
                       <p className="text-indigo-200 text-sm mt-3">
-                        Diseños web, prototipados, Photoshop, Illustrator,
-                        Figma, Adobe XD, Zeplin
-                      </p>
-                    </div>
-                    <div className="px-7 pt-7 pb-5 bg-[#091530] rounded-[10px] shadow-customThree transition-all hover:bg-blue-500 duration-500">
-                      <Image src={about.Frame5} alt="" />
-                      <h4 className="text-white text-2xl font-semibold mt-3">
-                        E-mailing Marketing
-                      </h4>
-                      <p className="text-indigo-200 text-sm mt-3">
-                        Mailing responsive, SAP Marketing Cloud, Insider,
-                        Mailchimp, Hubsport
+                        Prototipos, design Tinking, Figma, Adobe XD, AI, PSD
                       </p>
                     </div>
                     <div className="px-7 pt-7 pb-5 bg-[#091530] rounded-[10px] shadow-customThree transition-all hover:bg-blue-500 duration-500">
@@ -260,6 +248,16 @@ export function App() {
                       <p className="text-indigo-200 text-sm mt-3">
                         Scrum y Kanban - Azure Board, Jira, MS Planner, Notion
                         Trello.
+                      </p>
+                    </div>
+                    <div className="px-7 pt-7 pb-5 bg-[#091530] rounded-[10px] shadow-customThree transition-all hover:bg-blue-500 duration-500">
+                      <Image src={about.Frame5} alt="" />
+                      <h4 className="text-white text-2xl font-semibold mt-3">
+                        E-mailing Marketing
+                      </h4>
+                      <p className="text-indigo-200 text-sm mt-3">
+                        Mailing responsive, SAP Marketing Cloud, Insider,
+                        Mailchimp, Hubsport
                       </p>
                     </div>
                   </div>

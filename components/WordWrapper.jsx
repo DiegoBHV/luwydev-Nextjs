@@ -1,6 +1,6 @@
 "use client"
 import $ from "jquery";
-import { useEffect } from "react";
+import { useEffect} from "react";
 export const WordWrapper = () => {
   useEffect(() => {
     // Animation timing
@@ -200,7 +200,7 @@ export const WordWrapper = () => {
       <div className="cd-headline clip">
         <span className="cd-words-wrapper">
           <b className=" xl:text-[68px] text-[32px] lg:text-5xl is-visible">
-            <span>Web</span> Depelover
+            <span>Web</span> Developer
           </b>
           <b className="xl:text-[68px] text-[32px] lg:text-5xl">
             <span>Web</span> Designer
@@ -209,7 +209,7 @@ export const WordWrapper = () => {
             <span>E-</span>Commerce
           </b>
           <b className="xl:text-[68px] text-[32px] lg:text-5xl">
-            <span>UX</span> UI
+            <span>UX</span> Developer
           </b>
         </span>
       </div>
