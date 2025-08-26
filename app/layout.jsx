@@ -1,5 +1,4 @@
-import {Work_Sans} from "next/font/google";
-import "./globals.css";
+import RootLayoutClient from './RootLayoutClient';
 
 export const metadata = {
   metadataBase: new URL('https://luwydev.com'),
@@ -42,20 +41,7 @@ export const viewport = {
     { media: '(prefers-color-scheme: dark)', color: '#050f25' },
   ],
 } 
-const worksans = Work_Sans({
-  subsets: ['latin'],
-  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
-  style: ['normal', 'italic'],
-});
+
 export default function RootLayout({ children }) {
-  return (
-    <html lang="en">
-      
-      <body
-        className={`${worksans.className} antialiased`}
-      >
-        {children}
-      </body>
-    </html>
-  );
+  return <RootLayoutClient>{children}</RootLayoutClient>;
 }

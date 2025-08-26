@@ -35,6 +35,8 @@ import IconDev from "@/public/images/icon/IconDev.svg"
 import skills from "@/public/images/icon/skills.png";
 import mail_fast from "@/public/images/icon/mail_fast.svg";
 import calling from "@/public/images/icon/calling.svg";
+import spain from "@/public/images/icon/spain.svg";
+import usa from "@/public/images/icon/usa.svg";
 //logos
 import BelcorpLogo from "@/public/images/logo/BelcorpLogo.png";
 import favicon16x16 from "@/public/images/logo/favicon16x16.png";
@@ -112,6 +114,8 @@ export const icons = {
 "skills": skills,
 "mail_fast": mail_fast,
 "calling": calling,
+"spain": spain,
+"usa": usa,
 }
 export const logos = {
 "BelcorpLogo" : BelcorpLogo,

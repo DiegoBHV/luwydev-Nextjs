@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import { PreLoader } from "@/components/Preloader";
@@ -12,13 +13,16 @@ import {
   about,
   background,
 } from "@/components/imagenes";
+import { ChangeLang } from "@/components/ChangeLang";
 import { Slider } from "@/components/slider";
 import { WordWrapper } from "@/components/WordWrapper";
 import { FooterC } from "@/components/Footer";
 import { Sidebar } from "@/components/Sidebar";
 import { MenuMobile } from "@/components/MenuMobile";
+import {useTranslations} from 'next-intl';
 
 export function App() {
+  const t = useTranslations();
   return (
     <div style={{ background: "#010825" }} className="max-h-screen h-screen">
       <PreLoader></PreLoader>
@@ -58,6 +62,7 @@ export function App() {
                 </p>
               </div>
               <div className="sm:flex gap-[10px] hidden">
+                <ChangeLang></ChangeLang>
                 <a
                   href="https://github.com/Luwy-Dyro"
                   target="_blank"
@@ -132,7 +137,7 @@ export function App() {
                     <div className="grid lg:grid-cols-2 gap-10 items-center">
                       <div className="lg:col-span-1 head_title_home">
                         <div className="text-3xl lg:text-5xl xl:text-6xl mb-6 sm:mb-11 leading-normal xl:leading-snug font-work text-white ">
-                          <p className="text_1 font-bold">Hola, soy </p>
+                          <p className="text_1 font-bold">{t("Hola, soy")} </p>
                           <p className="xl:text-[68px]">Luwy&nbsp;Dyro</p>
                           <span className="relative">
                             <span className="relative z-20 w-fit">
@@ -141,7 +146,7 @@ export function App() {
                           </span>
                         </div>
                         <p className="text-xl lg:text-2xl text-neutral-100 pb-10 text_2">
-                          Creativo, Analítico y Calaborativo
+                          {t('Creativo, Analítico y Calaborativo')}
                         </p>
                         <div className="flex items-center flex-wrap gap-8">
                           <a
@@ -214,10 +219,10 @@ export function App() {
                     <div className="px-7 pt-7 pb-5 bg-[#091530] rounded-[10px] shadow-customThree transition-all hover:bg-blue-500 duration-500">
                       <Image src={about.Frame} alt="" />
                       <h4 className="text-white text-2xl font-semibold mt-3">
-                        Microservicios
+                        {t('Microservicios')}
                       </h4>
                       <p className="text-indigo-200 text-sm mt-3">
-                        Colab en diseño e implementación de microservicios,
+                        {t('Colab en diseño e implementación de microservicios')},
                         RestFul, Spring Boot, Mysql, SQL Server, MongoDB
                       </p>
                     </div>
@@ -237,13 +242,13 @@ export function App() {
                         UX Developer
                       </h4>
                       <p className="text-indigo-200 text-sm mt-3">
-                        Prototipos, design Tinking, Figma, Adobe XD, AI, PSD
+                        {t('Prototipos')}, design Tinking, Figma, Adobe XD, AI, PSD
                       </p>
                     </div>
                     <div className="px-7 pt-7 pb-5 bg-[#091530] rounded-[10px] shadow-customThree transition-all hover:bg-blue-500 duration-500">
                       <Image src={about.Frame6} alt="" />
                       <h4 className="text-white text-2xl font-semibold mt-3">
-                        Metodología Agile
+                        {t('Metodología Agile')}
                       </h4>
                       <p className="text-indigo-200 text-sm mt-3">
                         Scrum y Kanban - Azure Board, Jira, MS Planner, Notion
@@ -269,15 +274,14 @@ export function App() {
                       <div className="lg:w-1/2">
                         <div>
                           <h2 className="uppercase text-lg text-blue-500 font-medium block mb-3">
-                            Conóceme
+                            {t('Conóceme')}
                           </h2>
 
                           <h3 className="text-white font-semibold text-4xl xl:text-5xl xl:leading-snug mb-4">
                             Software Skills
                           </h3>
                           <p className="text-lg text-neutral-100 mb-8">
-                            Estoy utilizando los mejores métodos de diseño
-                            líderes en mi trabajo.
+                            {t('Estoy utilizando los mejores métodos de diseño líderes en mi trabajo')}.
                           </p>
                         </div>
                         <div className="mb-10 space-y-4">
@@ -432,7 +436,7 @@ export function App() {
                           </div>
                           <div className="relative">
                             <b className="text-lg font-medium text-neutral-100 block mb-3">
-                              CMS (WooCommerce – Pasarelas de Pago)
+                              CMS (WooCommerce – {t('Pasarelas de Pago')})
                             </b>
                             <div className="w-full h-2 flex items-center rounded overflow-hidden growAnimation">
                               <div
@@ -513,10 +517,10 @@ export function App() {
                     <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
                       <div>
                         <h2 className="uppercase text-lg text-blue-500 font-medium block mb-3">
-                          Proyectos
+                          {t('Proyectos')}
                         </h2>
                         <h3 className="text-white font-semibold text-4xl xl:text-5xl xl:leading-snug">
-                          Trabajos realizados
+                          {t('Trabajos realizados')}
                         </h3>
                       </div>
                     </div>
@@ -544,7 +548,7 @@ export function App() {
                         href={"/projects"}
                         className="bg-blue-500 hover:bg-blue-600 transition-all text-white px-6 py-4 rounded-lg inline-flex justify-between items-center"
                       >
-                        <p className="text-white">Ver todos</p>
+                        <p className="text-white">{t('Ver todos')}</p>
                       </Link>
                     </div>
                   </div>
@@ -555,7 +559,7 @@ export function App() {
                     <div className="pt-[7rem] pb-[5rem]">
                       <div className="max-w-lg mx-auto text-center mb-10">
                         <h2 className="text-5xl font-urbanist text-white font-semibold">
-                          Empresas
+                          {t('Empresas')}
                         </h2>
                       </div>
                       <Slider></Slider>
@@ -567,10 +571,10 @@ export function App() {
                   >
                     <div>
                       <h2 className="text-white font-bold text-4xl leading-normal xl:text-5xl capitalize xl:leading-snug text-center">
-                        Contácteme
+                       {t('Contácteme')}
                       </h2>
                       <h3 className="text-2xl font-medium text-white text-center pb-10">
-                        Siéntete libre de contactarme
+                        {t('Siéntete libre de contactarme')}
                       </h3>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
