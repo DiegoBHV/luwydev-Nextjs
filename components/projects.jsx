@@ -9,13 +9,13 @@ export default function App() {
       <div className="w-full h-fit relative group">
         <div className="transition-all w-full h-0 overflow-hidden group-hover:h-full flex flex-col justify-center items-center absolute rounded-lg bg-slate-950/80 ">
           <h4 className="text-white text-center text-[28px] font-semibold px-10">
-           <a href="https://removex.com.pe/" target="_blank" rel="noopener noreferrer">
+           <a href="https://removex.pe/" target="_blank" rel="noopener noreferrer">
            Removex
             </a>
           </h4>
           <ul className="list-disc">
             <li className="text-blue-500 text-base font-medium">
-              <a href="https://removex.com.pe/" target="_blank" rel="noopener noreferrer">
+              <a href="https://removex.pe/" target="_blank" rel="noopener noreferrer">
               <p className="text-white">FrontEnd</p>
               </a>
             </li>

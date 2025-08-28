@@ -52,6 +52,7 @@ import logoBianely_light from "@/public/images/logo/logoBianely_light.png";
 import Yanbal_logo from "@/public/images/logo/Yanbal_logo.png";
 import Yate_Peru_logo from "@/public/images/logo/Yate_Peru_logo.png";
 import logo_jjmining from "@/public/images/logo/logo_jjmining.png";
+import removex_logo from "@/public/images/logo/removex_logo.png";
 //profile
 import years5 from "@/public/images/profile/years5.png";
 import customar from "@/public/images/profile/customar.png";
@@ -132,6 +133,7 @@ export const logos = {
 "Yanbal_logo" : Yanbal_logo,
 "Yate_Peru_logo" : Yate_Peru_logo,
 "logo_jjmining" : logo_jjmining,
+"removex_logo" : removex_logo,
 }
 export const profile = {
     "years5" : years5,

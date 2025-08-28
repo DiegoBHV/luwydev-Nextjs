@@ -62,7 +62,7 @@ export function App() {
                 </p>
               </div>
               <div className="sm:flex gap-[10px] hidden">
-                <ChangeLang></ChangeLang>
+                
                 <a
                   href="https://github.com/Luwy-Dyro"
                   target="_blank"
@@ -98,6 +98,7 @@ export function App() {
                     />
                   </svg>
                 </a>
+                <ChangeLang></ChangeLang>
               </div>
             </div>
           </div>

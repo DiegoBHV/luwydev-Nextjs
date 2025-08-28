@@ -1,5 +1,7 @@
+import {useTranslations} from 'next-intl';
 export const FooterC = () => {
   const year = new Date().getFullYear();
+  const t = useTranslations();
 
     return (
         <div className="w-full absolute bottom-0 flex justify-center items-center bg-[#050F25] border-t border-[#121B30] flex-wrap footer">
@@ -8,7 +10,7 @@ export const FooterC = () => {
           {year}
         </p>
         <p className="text_2 py-5 text-neutral-500 font-medium text-base sm:text-lg font-work text-center">
-          &nbsp;<span className="inline">|</span> Todos los derechos reservados
+          &nbsp;<span className="inline">|</span> {t('Todos los derechos reservados')}
         </p>
       </div>
     );

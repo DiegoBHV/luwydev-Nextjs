@@ -59,7 +59,7 @@ export const ChangeLang = () => {
             className="py-1 px-1.5 flex flex-row gap-2 hover:bg-gray-700 rounded-lg cursor-pointer text-sm"
             onClick={() => changeLanguage("en")}
           >
-            <Image alt="Ingles" src={icons.usa} /> Ingles
+            <Image alt="Ingles" src={icons.usa} /> English
           </li>
         </ul>
       )}
