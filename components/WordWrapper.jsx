@@ -1,9 +1,11 @@
-"use client"
+"use client";
 import $ from "jquery";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 export const WordWrapper = () => {
+  const initialized = useRef(false);
   useEffect(() => {
-    // Animation timing
+    if (initialized.current) return;
+    initialized.current = true;
     let animationDelay = 2500,
       barAnimationDelay = 3800,
       barWaiting = barAnimationDelay - 3000,
@@ -188,7 +190,6 @@ export const WordWrapper = () => {
         ? $word.next()
         : $word.parent().children().eq(0);
     }
-
 
     function switchWord($oldWord, $newWord) {
       $oldWord.removeClass("is-visible").addClass("is-hidden");

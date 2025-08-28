@@ -20,7 +20,10 @@ export const metadata = {
   },
   icons: {
   icon: "../public/images/logo/logo_LD.svg",
-  },  
+  },
+  verification: {
+    google: 'nE2v_O-ZanGkO0SyK6Fxofu2A8moFSH_Yw7gl0F0sw0',
+  }, 
   openGraph: {
     title: 'Luwy Dyro | Web Developer',
     description: 'Luwy Dyro - Developer web Front End, UX Developer, E-commerce, SEO',
