@@ -25,7 +25,7 @@ export default function RootLayoutClient({ children }) {
 
       <body className={`${worksans.className} antialiased`}>
         <LocaleContext.Provider value={{ locale, setLocale }}>
-          <NextIntlClientProvider locale={locale} messages={messages}>
+          <NextIntlClientProvider locale={locale} messages={messages} onError={() => null}>
             {children}
           </NextIntlClientProvider>
         </LocaleContext.Provider>

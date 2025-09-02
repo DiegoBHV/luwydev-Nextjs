@@ -23,7 +23,7 @@ export default function ProjectsNext() {
                 rel="noopener noreferrer"
               >
                 <p className="text-white">
-                  React19-TS, Vite, SSR
+                  React19-TS, Vite, TanStack Table
                 </p>
               </a>
             </li>
@@ -64,7 +64,16 @@ export default function ProjectsNext() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <p className="text-white">NextJs15 CSR, SEO, Tailwind</p>
+                <p className="text-white">NextJs15 CSR, SEO </p>
+              </a>
+            </li>
+            <li className="text-blue-500 text-base font-medium">
+              <a
+                href="https://luwydev.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <p className="text-white">i18n, Tailwind</p>
               </a>
             </li>
           </ul>
